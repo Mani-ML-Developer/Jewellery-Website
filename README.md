@@ -1,28 +1,20 @@
 # Django Simple E-Commerce Website with Payment
-This is a simple e-commerce website built with Django (Python) and PayPal is added as payment processor.
+This is a simple e-commerce website built with Django (Python) 
 
-I've made this as a "Jewelry Shop" website but you can make any website you like.
+Modules
 
-
-[Project Demo on YouTube](https://www.youtube.com/watch?v=7IQwbIYfkNI "Django Simple E-Commerce Website")
-
-
-And if you like this project then ADD a STAR ⭐️  to this project 👆
-
-## Features of this Project
-
-### A. Admin Users Can
+Admin Users
 1. Manage Category (Add, Update, Filter and Delete)
 2. Manage Products (Add, Update, Filter and Delete)
 3. Manage Users (Update, Filter and Delete)
 4. Manage Orders (View and Process)
 
-### B. Non-Registered Users Can
+ Non-Registered Users 
 1. View Products (Can filter based on category)
 2. Explore Product Details and Related Products
 
 
-### C. Registered Users Can Can
+Registered Users 
 1. All ot Non-Registered Users
 2. Add to Cart
 3. Pay with PayPal or Debit/Credit Card and Order
@@ -33,33 +25,8 @@ And if you like this project then ADD a STAR ⭐️  to this project 👆
 8. Reset Password
 
 
-## Support Developer
-1. Subscribe & Share my YouTube Channel - https://bit.ly/vijay-thapa-online-courses
-2. Add a Star 🌟  to this 👆 Repository
 
 
-## Donate
-
-**[PayPal](https://bit.ly/support-vijay-thapa)**
-
-**[Buy me a Coffee  ☕️](https://www.buymeacoffee.com/vijaythapa)**
-
-**Donate by wire transfer:** E-Mail at *donate@vijaythapa.com* for wire transfer details. 
-
-
-## How to Install and Run this project?
-
-### Pre-Requisites:
-1. Install Git Version Control
-[ https://git-scm.com/ ]
-
-2. Install Python Latest Version
-[ https://www.python.org/downloads/ ]
-
-3. Install Pip (Package Manager)
-[ https://pip.pypa.io/en/stable/installing/ ]
-
-*Alternative to Pip is Homebrew*
 
 ### Installation
 **1. Create a Folder where you want to save the project**
@@ -94,22 +61,14 @@ For Mac
 $  source venv/bin/activate
 ```
 
-**3. Clone this project**
-```
-$  git clone https://github.com/vijaythapa333/django-jewelry-shop.git
-```
+clone this project use this link ---- https://github.com/Mani-ML-Developer/Jewellery-Website.git
 
-Then, Enter the project
-```
-$  cd django-jewelry-shop
-```
 
-**4. Install Requirements from 'requirements.txt'**
 ```python
 $  pip install -r requirements.txt
 ```
 
-**5. Add the hosts**
+
 
 - Got to settings.py file 
 - Then, On allowed hosts, Add [‘*’]. 
@@ -119,7 +78,6 @@ ALLOWED_HOSTS = ['*']
 *No need to change on Mac.*
 
 
-**6. Now Run Server**
 
 Command for PC:
 ```python
@@ -131,7 +89,6 @@ Command for Mac:
 $ python3 manage.py runserver
 ```
 
-**7. Login Credentials**
 
 Create Super User (Admin)
 
@@ -147,8 +104,4 @@ $  python3 manage.py createsuperuser
 Then Add Email, Username and Password
 
 
-
-## For Sponsor or Projects Enquiry
-1. Email - hi@vijaythapa.com
-2. LinkedIn - [vijaythapa](https://www.linkedin.com/in/vijaythapa "Vijay Thapa on LinkedIn")
 
